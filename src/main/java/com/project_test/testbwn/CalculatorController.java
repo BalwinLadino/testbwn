@@ -9,12 +9,13 @@ public class CalculatorController {
     @GetMapping("/sum")
     public String sum(@RequestParam int a, @RequestParam int b) {
         int result = a + b;
-        return "Suma: " + result;
+        return " CALCULADORA MASTER Suma: " + result;
     }
 
     @GetMapping("/subtract")
     public String subtract(@RequestParam int a, @RequestParam int b) {
         int result = a - b;
-        return "Resta: " + result;
+
+        return "CALCULADORA MASTER Resta: " + result;
 }
 }
